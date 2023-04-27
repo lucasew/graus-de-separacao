@@ -61,18 +61,22 @@ console.log('destino', verticesDestino)
 console.log('arestas', arestas)
 console.log('images', images)
 
-export const db = await create({
-    schema: {
-        name: 'string',
-        key: 'string',
-    }
-})
-
-Promise.all(verticesOrigem.map(async vertice => {
-    const {path, basename} = typedData[vertice]
-    await insert(db, {
-        name: basename,
-        key: vertice,
-        path
+export const db = (async function () {
+    const db = await create({
+        schema: {
+            name: 'string',
+            key: 'string',
+        }
     })
-})).then(() => console.log('indice carregado'))
+
+    await Promise.all(verticesOrigem.map(async vertice => {
+        const {path, basename} = typedData[vertice]
+        await insert(db, {
+            name: basename,
+            key: vertice,
+            path
+        })
+    }))
+    return db
+})()
+
