@@ -1,0 +1,355 @@
+{
+  "main": {
+    "id": "b540960d3e8edb5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "84c1ffdef11b3c3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d718c11426184ab0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20230425151408.png"
+              }
+            }
+          },
+          {
+            "id": "dbaef4e17cc43622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Neymar 🤝 Pelé.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d3ca62f68b289e5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20230425151533.png"
+              }
+            }
+          },
+          {
+            "id": "c7baf008a35e9e8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vértices/Charlie Chaplin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c22d1eeada5c649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Rainha Elizabeth II 🤝 Charles Chaplin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbf2f6c638291b9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Charles Chaplin 🤝 Albert Einstein.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "821ff7de21f2d265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Rainha Elizabeth II 🤝 Charles Chaplin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac8e0abaff3311c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Em 2013 Naldo se encontrou com o Will Smith.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "403378a0ddd27df7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20230425151930.png"
+              }
+            }
+          },
+          {
+            "id": "d22d22e17f765564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Will Smith e Rip Torn contracenaram juntos na franquia MIB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51a3fea1d04399f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Will Smith e Rip Torn contracenaram juntos na franquia MIB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae70a4ce0a8aa4fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Rip Torn atuou junto com o Michael Jackson em MIB 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70c5966aab866e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Will Smith e Rip Torn contracenaram juntos na franquia MIB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73f9887fb3cf7e6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arestas/Naldo Benny.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aeb9185b770d6795",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b390eb02f0f4dfd8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d88dc1a22998745b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3e73208db538375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc8e4bf3d7db8c8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24e86300228a80db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#aresta",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60a240c32715290f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "636ad3e9e206dfbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "781762f00c732250",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5340d76427b96be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f36c0503c930cd7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44a6eb9a1f5cc2b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "7932a11620356df6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b390eb02f0f4dfd8",
+  "lastOpenFiles": [
+    "meta.json",
+    "Arestas/Will Smith e Rip Torn contracenaram juntos na franquia MIB.md",
+    "Arestas/Rip Torn atuou junto com o Michael Jackson em MIB 2.md",
+    "assets/Pasted image 20230425152226.png",
+    "assets/Pasted image 20230425152151.png",
+    "assets/Pasted image 20230425152110.png",
+    "assets/Pasted image 20230425152043.png",
+    "Vértices/Rip Torn.md",
+    "Vértices/Michael Jackson.md",
+    "assets/Pasted image 20230425151930.png",
+    "assets/Pasted image 20230425151909.png",
+    "assets/Pasted image 20230425151853.png",
+    "Arestas/Will Smith.md",
+    "Arestas/Naldo Benny.md",
+    "Arestas/Em 2013 Naldo se encontrou com o Will Smith.md",
+    "Arestas/Rainha Elizabeth II 🤝 Charles Chaplin.md",
+    "Arestas/Pelé 🤝 Rainha Elizabeth II.md",
+    "assets/Pasted image 20230425151742.png",
+    "assets/Pasted image 20230425151716.png",
+    "assets/Pasted image 20230425151700.png",
+    "Arestas/Charles Chaplin 🤝 Albert Einstein.md",
+    "Vértices/Albert Einstein.md",
+    "Vértices/Charlie Chaplin.md",
+    "Vértices/Edson Arantes do Nascimento (Pelé).md",
+    "Arestas/Neymar 🤝 Pelé.md",
+    "Arestas/Anitta 🤝 Neymar.md",
+    "Arestas/Lewis Hamilton 🤝 Anitta.md",
+    "Arestas/Lando Norris 🤝 Lewis Hamilton.md",
+    "Vértices/Lewis Hamilton.md",
+    "Arestas/Em 1976, poucos anos antes da morte do Charlie Chaplin, a Rainha Elizabeth o condecorou como Caveleiro Comandante.md",
+    "Vértices/Pedro Pascal.md",
+    "Vértices/Wagner Moura.md",
+    "Arestas/Wagner Moura e Pedro Pascal atuaram juntos em Narcos.md",
+    "Arestas/Anitta e Luiza Sonza já se encontraram.md",
+    "Vértices/Luiza Sonza.md",
+    "Vértices/Montero Lamar Hill (Lil Nas X).md",
+    "Arestas",
+    "Vértices",
+    "assets"
+  ]
+}
