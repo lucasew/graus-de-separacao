@@ -18,6 +18,9 @@
                 <NavItem>
                     <NavLink href="/list">Lista</NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink href="/separation_degrees">Cálculo de graus de separação</NavLink>
+                </NavItem>
             </Nav>
         </Collapse>
     </Navbar>
