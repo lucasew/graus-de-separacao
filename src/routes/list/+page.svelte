@@ -2,8 +2,8 @@
 	import { Container } from "sveltestrap";
 	import Vertice from "../../components/Vertice.svelte";
 	import VerticeSearch from "../../components/VerticeSearch.svelte";
-	import { verticesDestino, verticesOrigem } from "../graph";
-	let selected = null
+	import { verticesOrigem } from "../graph";
+	let selected = ''
 	$: console.log("selected", selected)
 
 </script>

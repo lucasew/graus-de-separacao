@@ -16,7 +16,7 @@
         <Collapse isOpen={isNavbarOpen} navbar expand="md" on:update={handleNavbarUpdate}>
             <Nav>
                 <NavItem>
-                    <NavLink href="/">Teste</NavLink>
+                    <NavLink href="/list">Lista</NavLink>
                 </NavItem>
             </Nav>
         </Collapse>

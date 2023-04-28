@@ -1,7 +1,7 @@
 import { create, insert } from '@orama/orama'
 import data from '../../static/obsidian/meta.json'
 
-type ObsidianMeta = Record<string, {
+export type ObsidianRecord = {
     basename: string,
     ctime: number,
     extension: string,
@@ -9,7 +9,8 @@ type ObsidianMeta = Record<string, {
     name: string,
     path: string,
     referencedBy: string[]
-}>
+}
+export type ObsidianMeta = Record<string, ObsidianRecord>
 
 export const typedData = data as ObsidianMeta
 
@@ -80,3 +81,4 @@ export const db = (async function () {
     return db
 })()
 
+globalThis.typedData = typedData
