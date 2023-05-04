@@ -1,6 +1,5 @@
 <script lang="ts">
     export let data
-    console.log(data)
 </script>
 
 <h1>from: {data.from}</h1>

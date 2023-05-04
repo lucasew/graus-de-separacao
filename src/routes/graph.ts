@@ -34,7 +34,6 @@ for (let x of Object.keys(typedData)) {
     }
 }
 
-console.log('v', arestas)
 export let vertices: Record<string, Record<string, string>> = {}
 for (let aresta of Object.keys(arestas)) {
     const referencias = arestas[aresta]
@@ -56,11 +55,6 @@ export const verticesDestino = [
         .map(origem => Object.keys(vertices[origem] || {}))
         .flat())
 ].sort()
-
-console.log('origem', verticesOrigem)
-console.log('destino', verticesDestino)
-console.log('arestas', arestas)
-console.log('images', images)
 
 export const db = (async function () {
     const db = await create({
