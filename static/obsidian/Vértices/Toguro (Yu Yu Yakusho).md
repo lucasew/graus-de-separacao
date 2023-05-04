@@ -1,3 +1,3 @@
-[[Yu Yu Yaukusho]]
+[[Personagens de Yu Yu Yaukusho]]
 #vertice 
 ![[Pasted image 20230425130148.png]]

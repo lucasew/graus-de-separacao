@@ -1079,24 +1079,6 @@
       "Arestas/Em dezembro de 2021, Avril Lavigne e Anitta fizeram um TikTok com o Lil Nas X.md"
     ]
   },
-  "Vértices/BLACKPINK": {
-    "basename": "BLACKPINK",
-    "extension": "md",
-    "name": "BLACKPINK.md",
-    "path": "Vértices/BLACKPINK.md",
-    "ctime": 1682443354971,
-    "mtime": 1682444818414,
-    "referencedBy": []
-  },
-  "BLACKPINK": {
-    "basename": "BLACKPINK",
-    "extension": "md",
-    "name": "BLACKPINK.md",
-    "path": "Vértices/BLACKPINK.md",
-    "ctime": 1682443354971,
-    "mtime": 1682444818414,
-    "referencedBy": []
-  },
   "Vértices/Beyoncé": {
     "basename": "Beyoncé",
     "extension": "md",
@@ -1438,7 +1420,7 @@
       "Arestas/A Jennie faz parte do mesmo grupo que a Lisa.md",
       "Arestas/Jennie é amiga da modelo Shin Hyunji.md",
       "Arestas/Lisa é amiga da Jennie..md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Jennie (BLACKPINK)": {
@@ -1452,7 +1434,7 @@
       "Arestas/A Jennie faz parte do mesmo grupo que a Lisa.md",
       "Arestas/Jennie é amiga da modelo Shin Hyunji.md",
       "Arestas/Lisa é amiga da Jennie..md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Vértices/Jesus Cristo": {
@@ -1509,7 +1491,7 @@
     "ctime": 1682443402693,
     "mtime": 1682443429968,
     "referencedBy": [
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Kim Ji-soo (BLACKPINK)": {
@@ -1520,7 +1502,7 @@
     "ctime": 1682443402693,
     "mtime": 1682443429968,
     "referencedBy": [
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Vértices/Lana Del Rey": {
@@ -1638,7 +1620,7 @@
       "Arestas/A Jennie faz parte do mesmo grupo que a Lisa.md",
       "Arestas/Lisa é amiga da Jennie..md",
       "Arestas/Neymar conheceu a Lisa do BLACKPINK em Paris.md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Lisa (BLACKPINK)": {
@@ -1652,7 +1634,7 @@
       "Arestas/A Jennie faz parte do mesmo grupo que a Lisa.md",
       "Arestas/Lisa é amiga da Jennie..md",
       "Arestas/Neymar conheceu a Lisa do BLACKPINK em Paris.md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Vértices/Lucia de Jesus Rosa dos Santos (Irmã Lucia)": {
@@ -2146,7 +2128,7 @@
     "mtime": 1682443302527,
     "referencedBy": [
       "Arestas/Camila Queiroz 🤝 Rose do BLACKPINK.md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Rosé (BLACKPINK)": {
@@ -2158,7 +2140,7 @@
     "mtime": 1682443302527,
     "referencedBy": [
       "Arestas/Camila Queiroz 🤝 Rose do BLACKPINK.md",
-      "Vértices/BLACKPINK.md"
+      "Arestas/Membros de BLACKPINK.md"
     ]
   },
   "Vértices/Shin Hyunji": {
@@ -2213,7 +2195,7 @@
     "name": "Toguro (Yu Yu Yakusho).md",
     "path": "Vértices/Toguro (Yu Yu Yakusho).md",
     "ctime": 1682438480323,
-    "mtime": 1682444904745,
+    "mtime": 1683231373629,
     "referencedBy": [
       "Arestas/Toguro e Yusuke lutaram epicamente no episódio 61 de Yu Yu Hakusho.md"
     ]
@@ -2224,7 +2206,7 @@
     "name": "Toguro (Yu Yu Yakusho).md",
     "path": "Vértices/Toguro (Yu Yu Yakusho).md",
     "ctime": 1682438480323,
-    "mtime": 1682444904745,
+    "mtime": 1683231373629,
     "referencedBy": [
       "Arestas/Toguro e Yusuke lutaram epicamente no episódio 61 de Yu Yu Hakusho.md"
     ]
@@ -2393,37 +2375,13 @@
       "Arestas/Wagner Moura e Pedro Pascal atuaram juntos em Narcos.md"
     ]
   },
-  "Vértices/Yu Yu Yaukusho": {
-    "basename": "Yu Yu Yaukusho",
-    "extension": "md",
-    "name": "Yu Yu Yaukusho.md",
-    "path": "Vértices/Yu Yu Yaukusho.md",
-    "ctime": 1682444858215,
-    "mtime": 1682444870035,
-    "referencedBy": [
-      "Vértices/Toguro (Yu Yu Yakusho).md",
-      "Vértices/Yusuke (Yu Yu Yaukusho).md"
-    ]
-  },
-  "Yu Yu Yaukusho": {
-    "basename": "Yu Yu Yaukusho",
-    "extension": "md",
-    "name": "Yu Yu Yaukusho.md",
-    "path": "Vértices/Yu Yu Yaukusho.md",
-    "ctime": 1682444858215,
-    "mtime": 1682444870035,
-    "referencedBy": [
-      "Vértices/Toguro (Yu Yu Yakusho).md",
-      "Vértices/Yusuke (Yu Yu Yaukusho).md"
-    ]
-  },
   "Vértices/Yusuke (Yu Yu Yaukusho)": {
     "basename": "Yusuke (Yu Yu Yaukusho)",
     "extension": "md",
     "name": "Yusuke (Yu Yu Yaukusho).md",
     "path": "Vértices/Yusuke (Yu Yu Yaukusho).md",
     "ctime": 1682438552358,
-    "mtime": 1682444885186,
+    "mtime": 1683231373642,
     "referencedBy": [
       "Arestas/Toguro e Yusuke lutaram epicamente no episódio 61 de Yu Yu Hakusho.md",
       "Arestas/Yusuke e Goku lutaram lado a lado em Jump Force..md"
@@ -2435,7 +2393,7 @@
     "name": "Yusuke (Yu Yu Yaukusho).md",
     "path": "Vértices/Yusuke (Yu Yu Yaukusho).md",
     "ctime": 1682438552358,
-    "mtime": 1682444885186,
+    "mtime": 1683231373642,
     "referencedBy": [
       "Arestas/Toguro e Yusuke lutaram epicamente no episódio 61 de Yu Yu Hakusho.md",
       "Arestas/Yusuke e Goku lutaram lado a lado em Jump Force..md"
@@ -5023,6 +4981,70 @@
     "mtime": 1682446946055,
     "referencedBy": [
       "Vértices/Michael Jackson.md"
+    ]
+  },
+  "Arestas/Membros de BLACKPINK": {
+    "basename": "Membros de BLACKPINK",
+    "extension": "md",
+    "name": "Membros de BLACKPINK.md",
+    "path": "Arestas/Membros de BLACKPINK.md",
+    "ctime": 1682443354971,
+    "mtime": 1683232722892,
+    "referencedBy": []
+  },
+  "Membros de BLACKPINK": {
+    "basename": "Membros de BLACKPINK",
+    "extension": "md",
+    "name": "Membros de BLACKPINK.md",
+    "path": "Arestas/Membros de BLACKPINK.md",
+    "ctime": 1682443354971,
+    "mtime": 1683232722892,
+    "referencedBy": []
+  },
+  "Arestas/Personagens de Yu Yu Yaukusho": {
+    "basename": "Personagens de Yu Yu Yaukusho",
+    "extension": "md",
+    "name": "Personagens de Yu Yu Yaukusho.md",
+    "path": "Arestas/Personagens de Yu Yu Yaukusho.md",
+    "ctime": 1682444858215,
+    "mtime": 1682444870035,
+    "referencedBy": [
+      "Vértices/Toguro (Yu Yu Yakusho).md",
+      "Vértices/Yusuke (Yu Yu Yaukusho).md"
+    ]
+  },
+  "Personagens de Yu Yu Yaukusho": {
+    "basename": "Personagens de Yu Yu Yaukusho",
+    "extension": "md",
+    "name": "Personagens de Yu Yu Yaukusho.md",
+    "path": "Arestas/Personagens de Yu Yu Yaukusho.md",
+    "ctime": 1682444858215,
+    "mtime": 1682444870035,
+    "referencedBy": [
+      "Vértices/Toguro (Yu Yu Yakusho).md",
+      "Vértices/Yusuke (Yu Yu Yaukusho).md"
+    ]
+  },
+  "Pasted image 20230504173343.png": {
+    "basename": "Pasted image 20230504173343",
+    "extension": "png",
+    "name": "Pasted image 20230504173343.png",
+    "path": "Pasted image 20230504173343.png",
+    "ctime": 1683232423990,
+    "mtime": 1683232423991,
+    "referencedBy": [
+      "Arestas/Membros de BLACKPINK.md"
+    ]
+  },
+  "Pasted image 20230504173343": {
+    "basename": "Pasted image 20230504173343",
+    "extension": "png",
+    "name": "Pasted image 20230504173343.png",
+    "path": "Pasted image 20230504173343.png",
+    "ctime": 1683232423990,
+    "mtime": 1683232423991,
+    "referencedBy": [
+      "Arestas/Membros de BLACKPINK.md"
     ]
   }
 }

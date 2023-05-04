@@ -2,7 +2,7 @@
 	import { search } from '@orama/orama';
 	import { createEventDispatcher } from "svelte";
 	import { writable } from "svelte/store";
-	import { Button, Card, CardBody, CardFooter, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
+	import { Button, Card, CardBody, CardFooter, Container, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
 	import { db, images, typedData } from "../routes/graph";
 	import Vertice from "./Vertice.svelte";
 
@@ -57,9 +57,13 @@
 <Modal isOpen={open} {toggle}>
     <ModalHeader>Procurar por famoso</ModalHeader>
     <ModalBody>
-        <Input type='text' placeholder="Quem você quer escolher?" bind:value={searchValue}/>
+        <Container class="mb-3">
+            <Input type='text' placeholder="Quem você quer escolher?" bind:value={searchValue}/>
+        </Container>
         {#each $foundValues as value (value.key)}
-            <Vertice on:click={handleDispatcher} clickable vertice={value.key}/>
+            <Container class="mb-3">
+                <Vertice on:click={handleDispatcher} clickable vertice={value.key}/>
+            </Container>
         {/each}
     </ModalBody>
 </Modal>

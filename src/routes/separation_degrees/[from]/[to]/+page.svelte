@@ -1,12 +1,27 @@
 <script lang="ts">
+	import Aresta from '../../../../components/Aresta.svelte';
 	import { vertices } from '../../../graph.js';
 
     export let data
 
-    console.log(Object.keys(vertices))
-    console.log(data)
     const mkVtx = (key: string) => vertices[`Vértices/${key}`]
+    console.log(data.path)
+
+    function* range(from: number, to: number) {
+        for (let x = from; x < to; x++) {
+            yield x
+        }
+    }
 </script>
 
-<h1>from: {JSON.stringify(data.fromNode)}</h1>
-<h1>to: {JSON.stringify(data.toNode)}</h1>
+{#if !data.path}
+    <h1>Nenhum caminho encontrado</h1>
+{:else}
+    {#each Array.from(range(0, data.path.length - 1)) as i}
+        <Aresta aresta={vertices[data.path[i]][data.path[i+1]]} />
+    {/each}
+{/if}
+
+<!-- <h1>from: {JSON.stringify(data.fromNode)}</h1> -->
+<!-- <h1>to: {JSON.stringify(data.toNode)}</h1> -->
+<!-- <h1>path: {JSON.stringify(data.path)}</h1> -->
