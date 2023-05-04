@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Container } from "sveltestrap";
+	import { Container } from "sveltestrap/src";
 	import Vertice from "../../components/Vertice.svelte";
 	import VerticeSearch from "../../components/VerticeSearch.svelte";
 	import { verticesOrigem } from "../graph";

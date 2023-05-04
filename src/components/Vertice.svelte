@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Card, CardBody, CardHeader, Image } from "sveltestrap";
+    import { Card, CardBody, CardHeader, Image } from "sveltestrap/src";
     import { typedData, images } from "../routes/graph";
 	import { createEventDispatcher } from "svelte";
 

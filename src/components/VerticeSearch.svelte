@@ -1,5 +1,5 @@
 <script lang='ts'>
-	import { Button, Card, CardBody, CardFooter, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap";
+	import { Button, Card, CardBody, CardFooter, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
 	import { db, typedData, images, type ObsidianRecord } from "../routes/graph";
 	import type { ObsidianMeta } from "../routes/graph";
     import {search} from '@orama/orama'

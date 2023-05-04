@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button } from "sveltestrap";
+	import { Button, Col, Container, Row } from "sveltestrap/src";
 	import VerticeSearch from "../../components/VerticeSearch.svelte";
 	import { typedData, type ObsidianRecord } from "../graph";
 
@@ -12,9 +12,10 @@
 </script>
 
 <h1>Selecione duas personalidades:</h1>
-<VerticeSearch on:select={(e) => originKey = e.detail.key}/>
+<Container>
+    <VerticeSearch on:select={(e) => originKey = e.detail.key}/>
 
-<VerticeSearch on:select={(e) => destinationKey = e.detail.key}/>
+    <VerticeSearch on:select={(e) => destinationKey = e.detail.key}/>
 
-
-<Button disabled={!(originData && destinationData && (originKey !== destinationKey))}>Realizar busca</Button>
+    <Button disabled={!(originData && destinationData && (originKey !== destinationKey))}>Realizar busca</Button>
+</Container>

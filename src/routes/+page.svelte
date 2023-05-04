@@ -1,5 +1,5 @@
 <script>
-	import { Container } from "sveltestrap";
+	import { Container } from "sveltestrap/src";
 </script>
 
 <style>
