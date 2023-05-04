@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Aresta from '../../../../components/Aresta.svelte';
+	import { Container, Icon } from 'sveltestrap/src';
+    import Aresta from '../../../../components/Aresta.svelte';
 	import { vertices } from '../../../graph.js';
 
     export let data
@@ -14,11 +15,15 @@
     }
 </script>
 
+<h1>{data.from} <Icon name="caret-right-fill" /> {data.to}</h1>
+
 {#if !data.path}
     <h1>Nenhum caminho encontrado</h1>
 {:else}
     {#each Array.from(range(0, data.path.length - 1)) as i}
-        <Aresta aresta={vertices[data.path[i]][data.path[i+1]]} />
+        <Container class="mb-3">
+            <Aresta aresta={vertices[data.path[i]][data.path[i+1]]} />
+        </Container>
     {/each}
 {/if}
 

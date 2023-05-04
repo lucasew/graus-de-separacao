@@ -29,10 +29,14 @@ function getShortestPath(from: string, to: string) {
             }
         }
     }
-    if (!paths[toKey]) {
+    const finalPath = paths[toKey]
+    if (!finalPath) {
         return null
     }
-    return [...paths[toKey], toKey]
+    return [
+        ...finalPath,
+        toKey
+    ]
 }
 
 export async function load(data) {

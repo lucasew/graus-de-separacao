@@ -5007,7 +5007,7 @@
     "name": "Personagens de Yu Yu Yaukusho.md",
     "path": "Arestas/Personagens de Yu Yu Yaukusho.md",
     "ctime": 1682444858215,
-    "mtime": 1682444870035,
+    "mtime": 1683234577942,
     "referencedBy": [
       "Vértices/Toguro (Yu Yu Yakusho).md",
       "Vértices/Yusuke (Yu Yu Yaukusho).md"
@@ -5019,17 +5019,17 @@
     "name": "Personagens de Yu Yu Yaukusho.md",
     "path": "Arestas/Personagens de Yu Yu Yaukusho.md",
     "ctime": 1682444858215,
-    "mtime": 1682444870035,
+    "mtime": 1683234577942,
     "referencedBy": [
       "Vértices/Toguro (Yu Yu Yakusho).md",
       "Vértices/Yusuke (Yu Yu Yaukusho).md"
     ]
   },
-  "Pasted image 20230504173343.png": {
+  "assets/Pasted image 20230504173343.png": {
     "basename": "Pasted image 20230504173343",
     "extension": "png",
     "name": "Pasted image 20230504173343.png",
-    "path": "Pasted image 20230504173343.png",
+    "path": "assets/Pasted image 20230504173343.png",
     "ctime": 1683232423990,
     "mtime": 1683232423991,
     "referencedBy": [
@@ -5040,11 +5040,33 @@
     "basename": "Pasted image 20230504173343",
     "extension": "png",
     "name": "Pasted image 20230504173343.png",
-    "path": "Pasted image 20230504173343.png",
+    "path": "assets/Pasted image 20230504173343.png",
     "ctime": 1683232423990,
     "mtime": 1683232423991,
     "referencedBy": [
       "Arestas/Membros de BLACKPINK.md"
+    ]
+  },
+  "assets/Pasted image 20230504180936.png": {
+    "basename": "Pasted image 20230504180936",
+    "extension": "png",
+    "name": "Pasted image 20230504180936.png",
+    "path": "assets/Pasted image 20230504180936.png",
+    "ctime": 1683234576306,
+    "mtime": 1683234576307,
+    "referencedBy": [
+      "Arestas/Personagens de Yu Yu Yaukusho.md"
+    ]
+  },
+  "Pasted image 20230504180936": {
+    "basename": "Pasted image 20230504180936",
+    "extension": "png",
+    "name": "Pasted image 20230504180936.png",
+    "path": "assets/Pasted image 20230504180936.png",
+    "ctime": 1683234576306,
+    "mtime": 1683234576307,
+    "referencedBy": [
+      "Arestas/Personagens de Yu Yu Yaukusho.md"
     ]
   }
 }
