@@ -1,5 +1,5 @@
 <script>
-    import {Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles} from 'sveltestrap/src'
+    import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles } from 'sveltestrap/src';
 
     let isNavbarOpen = false;
     function handleNavbarUpdate(event) {

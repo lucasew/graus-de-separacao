@@ -1,11 +1,10 @@
 <script lang='ts'>
-	import { Button, Card, CardBody, CardFooter, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
-	import { db, typedData, images, type ObsidianRecord } from "../routes/graph";
-	import type { ObsidianMeta } from "../routes/graph";
-    import {search} from '@orama/orama'
-	import Vertice from "./Vertice.svelte";
-	import { writable } from "svelte/store";
+	import { search } from '@orama/orama';
 	import { createEventDispatcher } from "svelte";
+	import { writable } from "svelte/store";
+	import { Button, Card, CardBody, CardFooter, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
+	import { db, images, typedData } from "../routes/graph";
+	import Vertice from "./Vertice.svelte";
 
     const dispatcher = createEventDispatcher()
 
