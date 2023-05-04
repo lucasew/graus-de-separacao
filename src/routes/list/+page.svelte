@@ -1,16 +1,14 @@
 <script lang="ts">
-	import { Container } from "sveltestrap/src";
+	import { Container, Row } from "sveltestrap/src";
 	import Vertice from "../../components/Vertice.svelte";
-	import VerticeSearch from "../../components/VerticeSearch.svelte";
 	import { verticesOrigem } from "../graph";
-	let selected = ''
-	$: console.log("selected", selected)
 
 </script>
 
-<VerticeSearch on:select={(e) => selected = e.detail.key}/>
 <Container>
     {#each verticesOrigem as vertice}
-        <Vertice vertice={vertice} />
+		<Row class="mb-3">
+			<Vertice vertice={vertice} />
+		</Row>
     {/each}
 </Container>

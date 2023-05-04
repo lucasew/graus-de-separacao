@@ -12,10 +12,14 @@
 </script>
 
 <h1>Selecione duas personalidades:</h1>
-<Container>
+<Container class="mb-3">
     <VerticeSearch on:select={(e) => originKey = e.detail.key}/>
+</Container>
 
+<Container class="mb-3">
     <VerticeSearch on:select={(e) => destinationKey = e.detail.key}/>
+</Container>
 
+<Container class="mb-3">
     <Button disabled={!(originData && destinationData && (originKey !== destinationKey))}>Realizar busca</Button>
 </Container>
