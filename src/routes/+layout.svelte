@@ -22,7 +22,7 @@
 <Container style="min-height: 100vh">
     <Navbar expand='md'>
         <NavbarBrand href="/">Graus de separação</NavbarBrand>
-        <NavbarToggler on:click={() => {isNavbarOpen = !isNavbarOpen}} />
+        <NavbarToggler label="Menu" on:click={() => {isNavbarOpen = !isNavbarOpen}} />
         <Collapse isOpen={isNavbarOpen} navbar expand="md" on:update={handleNavbarUpdate}>
             <Nav>
                 <NavItem>
