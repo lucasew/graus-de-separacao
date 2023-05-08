@@ -1,38 +1,43 @@
-# create-svelte
+# Graus de Separação
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Um webapp que eu fiz para a matéria de Teoria dos Grafos.
 
-## Creating a project
+O projeto é inspirado nos desafios de graus de separação entre famosos
+que são realizados através de *threads* no Twitter.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Este projeto é separado em duas partes:
+- O Vault do [Obsidian](https://obsidian.md/) e o
+- Webapp propriamente dito feito em Svelte
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Para não precisar ter uma fase de indexação foi usado um [plugin que descarrega o indice do Obsidian em formato JSON](https://github.com/lucasew/obsidian-metadump).
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Como contribuir?
+### Webapp
+Para preparar o ambiente você vai precisar do NodeJS e, obviamente, do Git.
+
+De preferência não use versões muito antigas. No Nix você pode carregar o NodeJS para um shell temporariamente usando o comando `nix-shell -p nodejs`.
+
+Para iniciar a aplicação primeiro é necessário baixar as dependências pelo npm:
+
+```sh
+npm install
 ```
 
-## Developing
+E para iniciar a aplicação execute o seguinte comando:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+### "Banco de dados"
+Para editar o banco de dados você vai precisar instalar o Obsidian.
 
-To create a production version of your app:
+O Vault do Obsidian está na pasta `static/obsidian`.
 
-```bash
-npm run build
-```
+Ao criar elementos você deve seguir o padrão que já tá lá ou coisas podem não funcionar.
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Para criar um **vértice**, ou seja, uma personalidade, crie uma nota e mova ela na pasta Vértice. O nome da nota é o nome da pessoa. Todos os vértices devem ser marcados com a tag `#vertice`. O Obsidian vai tentar autocompletar.
+- Para criar uma **aresta**, ou seja, uma conexão entre duas personalidades, crie uma nota e mova para a pasta Arestas. O nome da nota é o nome da conexão. Na aresta use a linkagem de notas para linkar os vértices envolvidos, o Obsidian vai tentar autocompletar a relação. 
+- Cada vértice ou aresta deve ter uma imagem associada que vai ser usada como ícone na aplicação. A imagem não precisa de nenhum tratamento específico, pode ser apenas colada na nota. O Obsidian vai gerar o arquivo da imagem na raíz do Vault. Mova para a pasta `assets` ou o webapp não vai conseguir achar.
+- Ao final das suas edições, chame a paleta de comandos (Ctrl+p) e procure por `Metadumper: Dump metadata file`.
+- Não é necessário otimizar as imagens. Tem um bot que faz isso.
