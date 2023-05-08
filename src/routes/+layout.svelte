@@ -1,6 +1,8 @@
 <script>
     import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles } from 'sveltestrap/src';
 	import ForkMeBanner from '../components/ForkMeBanner.svelte';
+    import 'bootstrap/dist/css/bootstrap.min.css'
+    import 'bootstrap-icons/font/bootstrap-icons.min.css'
 
     let isNavbarOpen = false;
     function handleNavbarUpdate(event) {
@@ -8,7 +10,8 @@
     }
 </script>
 
-<Styles />
+
+<!-- <Styles /> -->
 
 <ForkMeBanner url="https://github.com/lucasew/graus-de-separacao" />
 
