@@ -2,6 +2,7 @@
 	import { Container, Icon } from 'sveltestrap/src';
     import Aresta from '../../../../components/Aresta.svelte';
 	import { vertices } from '../../../graph.js';
+	import Vertice from '../../../../components/Vertice.svelte';
 
     export let data
 
@@ -22,9 +23,15 @@
 {:else}
     {#each Array.from(range(0, data.path.length - 1)) as i}
         <Container class="mb-3">
+            <Vertice vertice={data.path[i]} />
+        </Container>
+        <Container class="mb-3">
             <Aresta aresta={vertices[data.path[i]][data.path[i+1]]} />
         </Container>
     {/each}
+    <Container class="mb-3">
+        <Vertice vertice={data.path[data.path.length - 1]} />
+    </Container>
 {/if}
 
 <!-- <h1>from: {JSON.stringify(data.fromNode)}</h1> -->
