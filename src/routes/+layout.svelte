@@ -11,6 +11,10 @@
 </script>
 
 
+<svelte:head>
+    <title>Graus de Separação</title>
+    <meta name="description" content="Ferramenta para calcular o grau de separação entre personalidades populares" />
+</svelte:head>
 <!-- <Styles /> -->
 
 <ForkMeBanner url="https://github.com/lucasew/graus-de-separacao" />
