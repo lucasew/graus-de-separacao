@@ -1,5 +1,6 @@
 <script>
     import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles } from 'sveltestrap/src';
+	import ForkMeBanner from '../components/ForkMeBanner.svelte';
 
     let isNavbarOpen = false;
     function handleNavbarUpdate(event) {
@@ -8,6 +9,8 @@
 </script>
 
 <Styles />
+
+<ForkMeBanner url="https://github.com/lucasew/graus-de-separacao" />
 
 <Container style="min-height: 100vh">
     <Navbar expand='md'>
