@@ -24,7 +24,7 @@
 
 <Card on:click={handleClick} style="{clickable ? "cursor: pointer;" : ''}">
     <CardBody>
-        <Image style='height: 4rem; aspect-ratio: 1; object-fit: cover;' thumbnail alt="{vertexNode.basename}" src="/obsidian/{images[normalizedVertice]}" />
+        <Image loading='lazy' style='height: 4rem; aspect-ratio: 1; object-fit: cover;' thumbnail alt="{vertexNode.basename}" src="/obsidian/{images[normalizedVertice]}" />
         {vertexNode.basename}
     </CardBody>
 </Card>

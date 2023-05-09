@@ -42,7 +42,7 @@
 <Card>
     <CardBody>
         {#if typedData[selectedKey]}
-            <Image style='height: 4rem; aspect-ratio: 1; object-fit: cover;' thumbnail alt="{typedData[selectedKey]?.basename}" src="/obsidian/{images[selectedKey + ".md"]}" />
+            <Image loading='lazy' style='height: 4rem; aspect-ratio: 1; object-fit: cover;' thumbnail alt="{typedData[selectedKey]?.basename}" src="/obsidian/{images[selectedKey + ".md"]}" />
             {typedData[selectedKey]?.basename}
         {:else}
             <div style="display: flex; align-items: center; justify-content: center; aspect-ratio: 1; height: 4rem">
