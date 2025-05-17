@@ -1,5 +1,5 @@
 <script>
-    import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles } from 'sveltestrap/src';
+    import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Styles } from '@sveltestrap/sveltestrap';
 	import ForkMeBanner from '../components/ForkMeBanner.svelte';
     import 'bootstrap/dist/css/bootstrap.min.css'
     import 'bootstrap-icons/font/bootstrap-icons.min.css'
@@ -22,7 +22,7 @@
 <Container style="min-height: 100vh">
     <Navbar expand='md'>
         <NavbarBrand href="/">Graus de separação</NavbarBrand>
-        <NavbarToggler label="Menu" on:click={() => {isNavbarOpen = !isNavbarOpen}} />
+        <NavbarToggler on:click={() => {isNavbarOpen = !isNavbarOpen}} />
         <Collapse isOpen={isNavbarOpen} navbar expand="md" on:update={handleNavbarUpdate}>
             <Nav>
                 <NavItem>

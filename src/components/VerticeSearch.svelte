@@ -2,7 +2,7 @@
 	import { search } from '@orama/orama';
 	import { createEventDispatcher } from "svelte";
 	import { writable } from "svelte/store";
-	import { Button, Card, CardBody, CardFooter, Container, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "sveltestrap/src";
+	import { Button, Card, CardBody, CardFooter, Container, Icon, Image, Input, Modal, ModalBody, ModalHeader } from "@sveltestrap/sveltestrap";
 	import { db, images, typedData } from "../routes/graph";
 	import Vertice from "./Vertice.svelte";
 

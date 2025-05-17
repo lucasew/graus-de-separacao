@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Container } from "sveltestrap/src";
+	import { Button, Container } from "@sveltestrap/sveltestrap";
 	import VerticeSearch from "../../components/VerticeSearch.svelte";
 	import { typedData, type ObsidianRecord } from "../graph";
     import {goto} from '$app/navigation'

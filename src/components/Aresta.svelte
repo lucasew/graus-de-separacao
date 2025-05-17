@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Card, CardBody, Image } from "sveltestrap/src";
+	import { Card, CardBody, Image } from "@sveltestrap/sveltestrap";
 	import { arestas, images, typedData } from "../routes/graph";
 
     export let aresta: string
