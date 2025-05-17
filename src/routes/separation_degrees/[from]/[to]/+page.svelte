@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Container, Icon } from 'sveltestrap/src';
+	import { Container, Icon } from '@sveltestrap/sveltestrap';
     import Aresta from '../../../../components/Aresta.svelte';
 	import { vertices } from '../../../graph.js';
 	import Vertice from '../../../../components/Vertice.svelte';
