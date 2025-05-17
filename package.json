@@ -31,7 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@orama/orama": "^1.0.0-beta.13",
+		"@orama/orama": "^3.0.0",
 		"bootstrap": "^5.2.3",
 		"bootstrap-icons": "^1.10.5",
 		"sveltestrap": "^5.10.0"
