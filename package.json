@@ -31,7 +31,7 @@
 	"type": "module",
 	"dependencies": {
 		"@orama/orama": "^3.1.6",
-		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@sveltestrap/sveltestrap": "^7.1.0",
 		"bootstrap": "^5.3.6",
 		"bootstrap-icons": "^1.13.1"
