@@ -1,2 +1,41 @@
 [tools]
-bun = "latest"
+bun = "1.2.14"
+
+[tasks.install]
+run = "bun install"
+
+[tasks.codegen]
+run = "bun run svelte-kit sync"
+depends = ["install"]
+
+[tasks."lint:prettier"]
+run = "bun run prettier --plugin-search-dir . --check ."
+depends = ["install"]
+
+[tasks."lint:eslint"]
+run = "bun run eslint ."
+depends = ["install", "codegen"]
+
+[tasks."lint:check"]
+run = "bun run svelte-check --tsconfig ./tsconfig.json"
+depends = ["install", "codegen"]
+
+[tasks.lint]
+depends = ["lint:*"]
+
+[tasks."fmt:prettier"]
+run = "bun run prettier --plugin-search-dir . --write ."
+depends = ["install"]
+
+[tasks.fmt]
+depends = ["fmt:*"]
+
+[tasks."test:unit"]
+run = "bun run vitest run"
+depends = ["install", "codegen"]
+
+[tasks.test]
+depends = ["test:*"]
+
+[tasks.ci]
+depends = ["lint", "test"]

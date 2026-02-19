@@ -7,6 +7,8 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	var typedData: any;
 }
 
 export {};

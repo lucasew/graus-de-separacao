@@ -1,14 +1,13 @@
 <script lang="ts">
-	import { Container, Row } from "@sveltestrap/sveltestrap";
-	import Vertice from "../../components/Vertice.svelte";
-	import { verticesOrigem } from "../graph";
-
+	import { Container, Row } from '@sveltestrap/sveltestrap';
+	import Vertice from '../../components/Vertice.svelte';
+	import { verticesOrigem } from '../graph';
 </script>
 
 <Container>
-    {#each verticesOrigem as vertice}
+	{#each verticesOrigem as vertice (vertice)}
 		<Row class="mb-3">
-			<Vertice vertice={vertice} />
+			<Vertice {vertice} />
 		</Row>
-    {/each}
+	{/each}
 </Container>
