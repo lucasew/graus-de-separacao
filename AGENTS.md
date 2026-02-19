@@ -28,8 +28,3 @@ This project uses [mise](https://mise.jdx.dev/) for task management and tool ver
 - **ESLint**: configured with flat config in `eslint.config.js`. Includes Svelte, TypeScript, and Prettier rules.
 - **Prettier**: handles code formatting.
 - **Svelte Check**: handles Svelte type checking.
-
-## CI/CD
-
-- GitHub Actions workflow `autorelease.yml` handles CI, Codegen, and Release.
-- Releases are triggered on tags starting with `v*`.
