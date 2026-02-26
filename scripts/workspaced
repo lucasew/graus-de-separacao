@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+if [ "$1" == "codebase" ]; then
+    if [ "$2" == "lint" ]; then
+        echo "Running workspaced codebase lint..."
+        bun run prettier --check .
+        bun run eslint .
+        bun run svelte-check --tsconfig ./tsconfig.json
+    elif [ "$2" == "format" ]; then
+        echo "Running workspaced codebase format..."
+        bun run prettier --write .
+    else
+        echo "Unknown subcommand: $2"
+        exit 1
+    fi
+else
+    echo "Unknown command: $1"
+    exit 1
+fi

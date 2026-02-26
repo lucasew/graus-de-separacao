@@ -22,30 +22,16 @@ run = "bun run vitest run"
 depends = ["install", "codegen"]
 
 [tasks.lint]
-depends = ["lint:*"]
-
-[tasks."lint:eslint"]
-run = "bun run eslint ."
-depends = ["install", "codegen"]
-
-[tasks."lint:prettier"]
-run = "bun run prettier --check ."
-depends = ["install"]
-
-[tasks."lint:check"]
-run = "bun run svelte-check --tsconfig ./tsconfig.json"
+run = "./scripts/workspaced codebase lint"
 depends = ["install", "codegen"]
 
 [tasks.fmt]
-depends = ["fmt:*"]
-
-[tasks."fmt:prettier"]
-run = "bun run prettier --write ."
+run = "./scripts/workspaced codebase format"
 depends = ["install"]
+
+[tasks.ci]
+depends = ["lint", "test"]
 
 [tasks.build]
 run = "bun run build"
 depends = ["install", "codegen"]
-
-[tasks.ci]
-depends = ["lint", "test"]
