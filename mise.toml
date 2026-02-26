@@ -2,40 +2,50 @@
 bun = "1.2.14"
 
 [tasks.install]
+depends = ["install:*"]
+
+[tasks."install:deps"]
 run = "bun install"
 
 [tasks.codegen]
+depends = ["codegen:*"]
+
+[tasks."codegen:svelte"]
 run = "bun run svelte-kit sync"
 depends = ["install"]
 
-[tasks."lint:prettier"]
-run = "bun run prettier --plugin-search-dir . --check ."
-depends = ["install"]
-
-[tasks."lint:eslint"]
-run = "bun run eslint ."
-depends = ["install", "codegen"]
-
-[tasks."lint:check"]
-run = "bun run svelte-check --tsconfig ./tsconfig.json"
-depends = ["install", "codegen"]
-
-[tasks.lint]
-depends = ["lint:*"]
-
-[tasks."fmt:prettier"]
-run = "bun run prettier --plugin-search-dir . --write ."
-depends = ["install"]
-
-[tasks.fmt]
-depends = ["fmt:*"]
+[tasks.test]
+depends = ["test:*"]
 
 [tasks."test:unit"]
 run = "bun run vitest run"
 depends = ["install", "codegen"]
 
-[tasks.test]
-depends = ["test:*"]
+[tasks.lint]
+depends = ["lint:*"]
+
+[tasks."lint:eslint"]
+run = "bun run eslint ."
+depends = ["install", "codegen"]
+
+[tasks."lint:prettier"]
+run = "bun run prettier --check ."
+depends = ["install"]
+
+[tasks."lint:check"]
+run = "bun run svelte-check --tsconfig ./tsconfig.json"
+depends = ["install", "codegen"]
+
+[tasks.fmt]
+depends = ["fmt:*"]
+
+[tasks."fmt:prettier"]
+run = "bun run prettier --write ."
+depends = ["install"]
+
+[tasks.build]
+run = "bun run build"
+depends = ["install", "codegen"]
 
 [tasks.ci]
 depends = ["lint", "test"]
