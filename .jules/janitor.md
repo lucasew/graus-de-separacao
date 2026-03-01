@@ -1,0 +1,1 @@
+- 2026-03-01: Removed deprecated `pluginSearchDirs` and `--plugin-search-dir` from Prettier configuration and scripts.

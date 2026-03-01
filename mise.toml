@@ -9,7 +9,7 @@ run = "bun run svelte-kit sync"
 depends = ["install"]
 
 [tasks."lint:prettier"]
-run = "bun run prettier --plugin-search-dir . --check ."
+run = "bun run prettier --check ."
 depends = ["install"]
 
 [tasks."lint:eslint"]
@@ -24,7 +24,7 @@ depends = ["install", "codegen"]
 depends = ["lint:*"]
 
 [tasks."fmt:prettier"]
-run = "bun run prettier --plugin-search-dir . --write ."
+run = "bun run prettier --write ."
 depends = ["install"]
 
 [tasks.fmt]
