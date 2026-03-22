@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Container, Row } from '@sveltestrap/sveltestrap';
 	import Vertice from '../../components/Vertice.svelte';
-	import { verticesOrigem } from '../graph';
+	import { verticesOrigem } from '$lib/graph';
 </script>
 
 <Container>

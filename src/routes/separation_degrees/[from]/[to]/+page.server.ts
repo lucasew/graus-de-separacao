@@ -1,46 +1,16 @@
 import { error } from '@sveltejs/kit';
-import { vertices } from '../../../graph';
+import { getShortestPath, vertices } from '$lib/graph';
+import { reportError } from '$lib/error';
 
 const mkKey = (key: string) => `Vértices/${key}`;
 const mkVtx = (key: string) => vertices[mkKey(key)];
 
-function getShortestPath(from: string, to: string) {
-	const fromKey = mkKey(from);
-	const toKey = mkKey(to);
-	if (fromKey === toKey) {
-		return null;
-	}
-	const paths: Record<string, string[] | undefined> = {};
-	const visit: Record<string, boolean> = {};
-	paths[fromKey] = [];
-	const queue: string[] = []; // como todos tem o mesmo peso dá pra reduzir o overhead com uma pinha
-	queue.push(fromKey);
-	while (queue.length > 0) {
-		const currentNode = queue.pop() as string; // pop de vetor não vazio não entrega undefined
-		for (const successor of Object.keys(vertices[currentNode])) {
-			// console.log('node', currentNode, successor)
-			const proposition = [...(paths[currentNode] || []), currentNode];
-			if (!paths[successor] || (paths[successor]?.length ?? Infinity) > proposition.length) {
-				paths[successor] = proposition;
-			}
-			if (!visit[successor]) {
-				queue.push(successor);
-				visit[successor] = true;
-			}
-		}
-	}
-	const finalPath = paths[toKey];
-	if (!finalPath) {
-		return null;
-	}
-	return [...finalPath, toKey];
-}
-
 export async function load(data) {
-	console.log(data.params);
 	const { from, to } = data.params;
 	if (!from || !to) {
-		error(400, 'missing from or to');
+		const errorMessage = 'missing from or to';
+		reportError(new Error(errorMessage), { params: data.params });
+		error(400, errorMessage);
 	}
 	return {
 		from,

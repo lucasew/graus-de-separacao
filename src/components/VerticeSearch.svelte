@@ -15,7 +15,7 @@
 		ModalBody,
 		ModalHeader
 	} from '@sveltestrap/sveltestrap';
-	import { db, images, typedData } from '../routes/graph';
+	import { db, images, typedData } from '$lib/graph';
 	import Vertice from './Vertice.svelte';
 
 	const dispatcher = createEventDispatcher();

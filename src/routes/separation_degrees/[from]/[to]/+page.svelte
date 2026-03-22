@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Container, Icon } from '@sveltestrap/sveltestrap';
 	import Aresta from '../../../../components/Aresta.svelte';
-	import { vertices } from '../../../graph.js';
+	import { vertices } from '$lib/graph.js';
 	import Vertice from '../../../../components/Vertice.svelte';
 
 	export let data;

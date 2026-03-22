@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Card, CardBody, Image } from '@sveltestrap/sveltestrap';
-	import { images, typedData } from '../routes/graph';
+	import { images, typedData } from '$lib/graph';
 
 	export let aresta: string;
 	const image = images[aresta];
